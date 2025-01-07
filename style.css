@@ -1,0 +1,216 @@
+@font-face {
+  font-family: molle;
+  src: url(font/Molle-Italic.ttf);
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.container1 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1, 6;
+}
+
+Navigation styling .navbar {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 2em;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  font-family: molle;
+}
+
+.menu-tema01 a:hover {
+  color: #f43d3d; /* Rød */
+}
+.menu-tema02 a:hover {
+  color: #b5d3b5; /* Grøn */
+}
+.menu-tema03 a:hover {
+  color: #23239d; /* Blå */
+}
+.menu-tema04 a:hover {
+  color: #efc880; /* Orange */
+}
+.menu-tema05 a:hover {
+  color: #f28df2; /* Lilla */
+}
+.menu-tema06 a:hover {
+  color: #b7ebeb; /* Turkis */
+}
+.menu-om a:hover {
+  color: #f0acb0; /* Lyserød */
+}
+.menu-home a:hover {
+  color: #767171;
+}
+.om {
+  color: #f0acb0;
+}
+
+/* ..styling af menusider.. */
+
+/* ..TEMA01.. */
+
+.main {
+  /* max-width: 900px; */
+  /* width: 100%; */
+  margin-top: 10cap;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+/* Titel */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f43d3d; /* Pink farve */
+  margin-bottom: 10px;
+  font-style: Molle;
+}
+
+/* Kort beskrivelse */
+.short-description {
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+/* Lang beskrivelse */
+.long-description {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.8;
+  /* margin-bottom: 30px; */
+}
+
+/* Billede */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.stylecon {
+  border-radius: 20%;
+}
+.mutti-container {
+  padding: 3em;
+}
+
+/* ..OM SIDE.. */
+.cv1 {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.cv-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e4f4f3;
+  border-radius: 8px;
+}
+.profile-picture img {
+  max-width: 100%;
+}
+.intro h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.intro h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  margin-bottom: 10px;
+}
+
+.iværk ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* ..tema5.. */
+
+.liste {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.liste li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* ...knap.. */
+.knap a {
+  display: inline-block;
+  background-color: #a1d7d4;
+  color: rgb(11, 11, 11);
+  padding: 5px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  font-family: molle;
+  margin-top: 30px;
+}
+
+.knap a:hover {
+  background-color: #e4f4f3;
+  color: #050505;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #eaeaea;
+  margin-top: auto;
+  font-family: molle;
+}
